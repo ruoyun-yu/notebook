@@ -1,0 +1,5 @@
+##be used to check what is inside 
+library(sf)
+library(here)
+st_layers(here("prac3_data", "gadm41_AUS.gpkg"))
+
